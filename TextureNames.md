@@ -4,3 +4,8 @@
 - 学習装置/LearningDevice.png
 - 液体窒素缶/LiquidNitrogenCan.png
 - 圧縮された缶/CompressedAir.png
+- 鉄釘/Ironnails.png
+- リモコン/Remote
+- アクセラステッキ/Axela stick
+- 電磁波ゴーグルoff/Electromagneticwavegoggles_off.png
+- 電磁波ゴーグルon/Electromagneticwavegoggles_on.png
