@@ -1,0 +1,16 @@
+[
+{
+  "modid": "Toaru",
+  "name": "Toaru",
+  "description": "Toaru created by hukihamu, yusukemac, ...",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["hukihamu", "yusukemac"],
+  "credits": "The Toaru Mod guys, for making this mod",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
