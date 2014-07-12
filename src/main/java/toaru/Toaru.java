@@ -17,7 +17,7 @@ public class Toaru {
 	@EventHandler
 	public void PreInit(FMLPreInitializationEvent event) {
 		Objects.setupObjects();
-		Item[] items = new Item[] {Objects.compressed_air, Objects.learning_device, Objects.nitrogen, Objects.iron_nails};
+		Item[] items = new Item[] {Objects.compressed_air, Objects.learning_device, Objects.nitrogen, Objects.iron_nails, Objects.cyborg_hand};
 		for (Item item : items) {
 			GameRegistry.registerItem(item, item.getUnlocalizedName());
 		}

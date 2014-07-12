@@ -9,4 +9,4 @@
 - アクセラステッキ/AxelaStick.png/N
 - 電磁波ゴーグルoff/ElectroMagneticWaveGoggles_off.png/N
 - 電磁波ゴーグルon/ElectroMagneticWaveGoggles_on.png/N
-- サイボーグハンド/CyborgHand.png/N
+- サイボーグハンド/CyborgHand.png/Y
