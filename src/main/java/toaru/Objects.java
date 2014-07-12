@@ -17,7 +17,7 @@ public class Objects {
 	};
 	
 	public static void setupObjects() {
-		learning_device = new Item().setCreativeTab(tabToaru).setUnlocalizedName("Lerningdevice").setTextureName("LearningDevice");
+		learning_device = new Item().setCreativeTab(tabToaru).setUnlocalizedName("LearningDevice").setTextureName("LearningDevice");
 		nitrogen = new Item().setCreativeTab(tabToaru).setUnlocalizedName("LiquidNitrogenCan").setTextureName("LiquidNitrogenCan");
 		compressed_air = new Item().setCreativeTab(tabToaru).setUnlocalizedName("CompressedAir").setTextureName("CompressedAir");
 	}
