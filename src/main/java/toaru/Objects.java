@@ -12,7 +12,7 @@ public class Objects {
 		@Override
 		@SideOnly(Side.CLIENT) 
 		public Item getTabIconItem() {
-			return nitrogen;
+			return learning_device;
 		}
 	};
 	
