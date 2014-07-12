@@ -1,4 +1,4 @@
-# 各テクスチャの名称
+﻿# 各テクスチャの名称
 ---
 ##### 日本語名/テクスチャのファイル名/追加したか(Y/N)
 - 学習装置/LearningDevice.png/Y
@@ -9,3 +9,4 @@
 - アクセラステッキ/AxelaStick.png/N
 - 電磁波ゴーグルoff/ElectroMagneticWaveGoggles_off.png/N
 - 電磁波ゴーグルon/ElectroMagneticWaveGoggles_on.png/N
+- サイボーグハンド/CyborgHand.png/N
