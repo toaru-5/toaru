@@ -10,3 +10,4 @@
 - 電磁波ゴーグルoff/ElectroMagneticWaveGoggles_off.png/N
 - 電磁波ゴーグルon/ElectroMagneticWaveGoggles_on.png/N
 - サイボーグハンド/CyborgHand.png/Y
+- 電極/Electrode.png/N
