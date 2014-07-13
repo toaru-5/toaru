@@ -1,31 +1,36 @@
 package toaru;
 
+import org.lwjgl.input.Keyboard;
+
+import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class Objects 
-{
+public class Objects {
 
-	public static Item learning_device, nitrogen, compressed_air, iron_nails, cyborg_hand, Electrode;
-	public static CreativeTabs tabToaru = new CreativeTabs("Toaru") 
-	{
+	public static Item learning_device, nitrogen, compressed_air, iron_nails, axela_stick, cybord_hand, remote, electro_magnetic_wave_goggles;
+	public static CreativeTabs tabToaru = new CreativeTabs("Toaru") {
 		@Override
 		@SideOnly(Side.CLIENT) 
-		public Item getTabIconItem() 
-		{
+		public Item getTabIconItem() {
 			return learning_device;
 		}
 	};
 	
-	public static void setupObjects() 
-	{
+	public static KeyBinding goggleKey;
+	
+	public static void setupObjects() {
 		learning_device = new Item().setCreativeTab(tabToaru).setUnlocalizedName("LearningDevice").setTextureName("LearningDevice");
 		nitrogen = new Tools.LiquidNitrogenCan().setCreativeTab(tabToaru).setUnlocalizedName("LiquidNitrogenCan").setTextureName("LiquidNitrogenCan");
-		compressed_air = new Item().setCreativeTab(tabToaru).setUnlocalizedName("CompressedAir").setTextureName("CompressedAir").setMaxStackSize(16);
+		compressed_air = new Item().setCreativeTab(tabToaru).setUnlocalizedName("CompressedAir").setTextureName("CompressedAir");
 		iron_nails = new Item().setCreativeTab(tabToaru).setUnlocalizedName("IronNails").setTextureName("IronNails");
-		cyborg_hand = new Item().setCreativeTab(tabToaru).setUnlocalizedName("CyborgHand").setTextureName("CyborgHand");
-		Electrode = new Item().setCreativeTab(tabToaru).setUnlocalizedName("Electrode").setTextureName("Electrode");
+		axela_stick = new Item().setCreativeTab(tabToaru).setUnlocalizedName("AxelaStick").setTextureName("AxelaStick");
+		cybord_hand = new Item().setCreativeTab(tabToaru).setUnlocalizedName("CyborgHand").setTextureName("CyborgHand");
+		remote = new Item().setCreativeTab(tabToaru).setUnlocalizedName("Remote").setTextureName("Remote");
+		electro_magnetic_wave_goggles = new Tools.ElectroMagneticWaveGoggles().setCreativeTab(tabToaru).setUnlocalizedName("ElectroMagneticWaveGoggles").setTextureName("ElectroMagneticWaveGoggles");
+		
+		goggleKey = new KeyBinding("key.goggle", Keyboard.KEY_L, "key.categories.Toaru");
 	}
 }
