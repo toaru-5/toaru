@@ -1,16 +1,21 @@
 package toaru;
 
-import org.lwjgl.input.Keyboard;
-
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
 import net.minecraft.client.settings.KeyBinding;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+
+import org.lwjgl.input.Keyboard;
+
+import toaru.HPW.BlockHighPerformanceWorkbench;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 public class Objects {
 
 	public static Item learning_device, nitrogen, compressed_air, iron_nails, axela_stick, cybord_hand, remote, electro_magnetic_wave_goggles;
+	public static Block high_performance_workbench;
 	public static CreativeTabs tabToaru = new CreativeTabs("Toaru") {
 		@Override
 		@SideOnly(Side.CLIENT) 
@@ -18,9 +23,9 @@ public class Objects {
 			return learning_device;
 		}
 	};
-	
+
 	public static KeyBinding goggleKey;
-	
+
 	public static void setupObjects() {
 		learning_device = new Item().setCreativeTab(tabToaru).setUnlocalizedName("LearningDevice").setTextureName("LearningDevice");
 		nitrogen = new Tools.LiquidNitrogenCan().setCreativeTab(tabToaru).setUnlocalizedName("LiquidNitrogenCan").setTextureName("LiquidNitrogenCan");
@@ -30,7 +35,9 @@ public class Objects {
 		cybord_hand = new Item().setCreativeTab(tabToaru).setUnlocalizedName("CyborgHand").setTextureName("CyborgHand");
 		remote = new Item().setCreativeTab(tabToaru).setUnlocalizedName("Remote").setTextureName("Remote");
 		electro_magnetic_wave_goggles = new Tools.ElectroMagneticWaveGoggles().setCreativeTab(tabToaru).setUnlocalizedName("ElectroMagneticWaveGoggles").setTextureName("ElectroMagneticWaveGoggles");
-		
+
+		high_performance_workbench = new BlockHighPerformanceWorkbench(Material.wood).setCreativeTab(tabToaru).setBlockName("HighPerformanceWorkbench").setBlockTextureName("high_performance_workbench");
+
 		goggleKey = new KeyBinding("key.goggle", Keyboard.KEY_L, "key.categories.Toaru");
 	}
 }

@@ -4,4 +4,7 @@ item.CompressedAir.name=Compressed Air
 item.IronNails.name=Iron Nails
 item.CyborgHand.name=Cyborg Hand
 item.Electrode.name=Electrode
+item.Remote.name=Remote
+item.ElectroMagneticWaveGoggles.name=Electro Magnetic Wave Goggles
+item.AxelaStick.name=Axela stick
 itemGroup.Toaru=Toaru

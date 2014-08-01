@@ -4,4 +4,7 @@ item.CompressedAir.name=圧縮された空気
 item.IronNails.name=鉄釘
 item.CyborgHand.name=サイボーグハンド
 item.Electrode.name=電極
+item.Remote.name=リモコン
+item.ElectroMagneticWaveGoggles.name=電磁波ゴーグル
+item.AxelaStick.name=アクセラスティック
 itemGroup.Toaru=とある
