@@ -8,3 +8,5 @@ item.Remote.name=Remote
 item.ElectroMagneticWaveGoggles.name=Electro Magnetic Wave Goggles
 item.AxelaStick.name=Axela stick
 itemGroup.Toaru=Toaru
+item.Treediagram_Debris.name=Treediagram Debris
+tile.high_performance_workbench=High Performance Workbench

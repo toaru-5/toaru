@@ -14,7 +14,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class Objects {
 
-	public static Item learning_device, nitrogen, compressed_air, iron_nails, axela_stick, cybord_hand, remote, electro_magnetic_wave_goggles;
+	public static Item learning_device, nitrogen, compressed_air, iron_nails, axela_stick, cybord_hand, remote, electro_magnetic_wave_goggles, treediagram_debris;
 	public static Block high_performance_workbench;
 	public static CreativeTabs tabToaru = new CreativeTabs("Toaru") {
 		@Override
@@ -35,6 +35,7 @@ public class Objects {
 		cybord_hand = new Item().setCreativeTab(tabToaru).setUnlocalizedName("CyborgHand").setTextureName("CyborgHand");
 		remote = new Item().setCreativeTab(tabToaru).setUnlocalizedName("Remote").setTextureName("Remote");
 		electro_magnetic_wave_goggles = new Tools.ElectroMagneticWaveGoggles().setCreativeTab(tabToaru).setUnlocalizedName("ElectroMagneticWaveGoggles").setTextureName("ElectroMagneticWaveGoggles");
+		treediagram_debris = new Item().setCreativeTab(tabToaru).setUnlocalizedName("Treediagram_Debris").setTextureName("Treediagram_Debris");
 
 		high_performance_workbench = new BlockHighPerformanceWorkbench(Material.wood).setCreativeTab(tabToaru).setBlockName("HighPerformanceWorkbench").setBlockTextureName("high_performance_workbench");
 

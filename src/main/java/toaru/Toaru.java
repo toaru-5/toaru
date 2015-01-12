@@ -5,7 +5,6 @@ import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import toaru.HPW.HighPerformanceCraftingManager;
 import toaru.HPW.TGuiHandler;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
@@ -35,7 +34,7 @@ public class Toaru {
 	public void PreInit(FMLPreInitializationEvent event) {
 		Objects.setupObjects();
 
-		Item[] items = new Item[] {Objects.compressed_air, Objects.learning_device, Objects.nitrogen, Objects.iron_nails, Objects.axela_stick, Objects.cybord_hand, Objects.remote, Objects.electro_magnetic_wave_goggles};
+		Item[] items = new Item[] {Objects.compressed_air, Objects.learning_device, Objects.nitrogen, Objects.iron_nails, Objects.axela_stick, Objects.cybord_hand, Objects.remote, Objects.electro_magnetic_wave_goggles, Objects.treediagram_debris};
 		for (Item item : items)
 			GameRegistry.registerItem(item, item.getUnlocalizedName());
 
