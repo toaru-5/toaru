@@ -34,7 +34,7 @@ public class Toaru {
 	public void PreInit(FMLPreInitializationEvent event) {
 		Objects.setupObjects();
 
-		Item[] items = new Item[] {Objects.compressed_air, Objects.learning_device, Objects.nitrogen, Objects.iron_nails, Objects.axela_stick, Objects.cybord_hand, Objects.remote, Objects.electro_magnetic_wave_goggles, Objects.treediagram_debris};
+		Item[] items = new Item[] {Objects.compressed_air, Objects.learning_device, Objects.nitrogen, Objects.iron_nails, Objects.axela_stick, Objects.cybord_hand, Objects.remote, Objects.electro_magnetic_wave_goggles, Objects.treediagram_debris, Objects.coin};
 		for (Item item : items)
 			GameRegistry.registerItem(item, item.getUnlocalizedName());
 
