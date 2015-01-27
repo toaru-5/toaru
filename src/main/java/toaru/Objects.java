@@ -41,5 +41,9 @@ public class Objects {
 		high_performance_workbench = new BlockHighPerformanceWorkbench(Material.wood).setCreativeTab(tabToaru).setBlockName("HighPerformanceWorkbench").setBlockTextureName("high_performance_workbench");
 
 		goggleKey = new KeyBinding("key.goggle", Keyboard.KEY_L, "key.categories.Toaru");
+	};
+	//レシピを追加したい
+	public static void init(){
+		
 	}
 }
