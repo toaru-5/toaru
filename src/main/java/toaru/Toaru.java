@@ -29,7 +29,7 @@ public class Toaru {
 		NetworkRegistry.INSTANCE.registerGuiHandler(this, new TGuiHandler());
 		
 	}
-
+//アイテムの読み込み場所の指定？
 	@EventHandler
 	public void PreInit(FMLPreInitializationEvent event) {
 		Objects.setupObjects();
@@ -42,9 +42,10 @@ public class Toaru {
 		for (Block block : blocks)
 			GameRegistry.registerBlock(block, block.getUnlocalizedName());
 	}
-
+//クラフトなど追加
 	private void registerRecipes() {
 		GameRegistry.addShapelessRecipe(new ItemStack(Objects.compressed_air), new Object[] {Items.bucket, Items.bucket, Items.bucket, Items.bucket});
 		GameRegistry.addRecipe(new ItemStack(Objects.nitrogen, 4), new Object[] {"SBS", "SCS", "SSS", 'S', Blocks.stone, 'B', Blocks.stone_button, 'C', Objects.compressed_air});
+		GameRegistry.addRecipe(new ItemStack(Objects.high_performance_workbench,1), new Object[] {"SBS", "SCS", "SSS", 'S', Items.diamond, 'B', Blocks.redstone_block, 'C', Items.emerald});
 	}
 }

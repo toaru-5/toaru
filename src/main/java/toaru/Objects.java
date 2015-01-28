@@ -13,7 +13,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 public class Objects {
-
+//アイテムなどの登録
 	public static Item learning_device, nitrogen, compressed_air, iron_nails, axela_stick, cybord_hand, remote, electro_magnetic_wave_goggles, treediagram_debris, coin;
 	public static Block high_performance_workbench;
 	public static CreativeTabs tabToaru = new CreativeTabs("Toaru") {
@@ -25,7 +25,7 @@ public class Objects {
 	};
 
 	public static KeyBinding goggleKey;
-
+//アイテム情報の追加
 	public static void setupObjects() {
 		learning_device = new Item().setCreativeTab(tabToaru).setUnlocalizedName("LearningDevice").setTextureName("LearningDevice");
 		nitrogen = new Tools.LiquidNitrogenCan().setCreativeTab(tabToaru).setUnlocalizedName("LiquidNitrogenCan").setTextureName("LiquidNitrogenCan");
@@ -42,8 +42,4 @@ public class Objects {
 
 		goggleKey = new KeyBinding("key.goggle", Keyboard.KEY_L, "key.categories.Toaru");
 	};
-	//レシピを追加したい
-	public static void init(){
-		
-	}
 }
